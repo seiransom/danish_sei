@@ -21,45 +21,59 @@
 
     - The freeCodeCamp Team
 
-    -->  <h1 id="title">my online course</h1>
-  <p id="description">here you get best online blogging course that will help you in your life</p>
-  <form id="survey-form">
-    <label id="name-label">Name</label>
-    <input id="name" type="text" placeholder="your full name" required />
-    <label id="email-label">Email</label>
-    <input id="email" type="email" placeholder=" your email" required />
-    <label id="number-label">Age (optional)</label>
-    <input id="number" type="number" min="10" max="10" placeholder="your Age" required />
-    <label>Which option best describes your current role?</label>
-      <select id="dropdown">
-           <option>Student</option>
-           <option>Full Time Job</option>
-           <option>Full Time Learner</option>
-           <option>prefer not to say</option>
-           <option>Other</option>
-      </select>
-      
-      <label>Would you recommend freeCodeCamp to a friend?</label>
-      <label><input type="radio" name="codecamp" value="definitely"> Definitely</label>
-      <label><input type="radio" name="codecamp" value="maybe"> Maybe</label>
-      <label><input type="radio" name="codecamp" value="not sure"> Not sure</label>
-      
-      <label>What is your favorite feature of freeCodeCamp?</label>
-      <select id="dropdown">
-        <option>Challenges</option>
-        <option>Project</option>
-        <option>Community</option>
-        <option>Open Source</option>
-      </select>
+    -->  
 
-      <label>What would you like to see improved? (Check all that apply)</label>
-      <label><input type="checkbox" > Front-end Projects</label>
-      <label><input type="checkbox" > Back-end Projects</label>
-      <label><input type="checkbox" > Challenges</label>
-      <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
-      <input id="submit" type="submit"/>
 
-  </form>
+
+  <section id="container">
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <label id="name-label">Name</label>
+      <input id="name" type="text" placeholder="your full name" required />
+      <label id="email-label">Email</label>
+      <input id="email" type="email" placeholder=" your email" required />
+      <label id="number-label">Age (optional)</label>
+      <input id="number" type="number" min="10" max="10" placeholder="your Age" required />
+      <label>Which option best describes your current role?</label>
+        <select id="dropdown">
+            <option>Student</option>
+            <option>Full Time Job</option>
+            <option>Full Time Learner</option>
+            <option>prefer not to say</option>
+            <option>Other</option>
+        </select><br/>
+        
+        <label>Would you recommend freeCodeCamp to a friend?</label>
+        <label><input type="radio" name="codecamp" value="definitely"> Definitely</label>
+        <label><input type="radio" name="codecamp" value="maybe"> Maybe</label>
+        <label><input type="radio" name="codecamp" value="not sure"> Not sure</label><br/>
+        
+        <label>What is your favorite feature of freeCodeCamp?</label>
+        <select id="dropdown">
+          <option>Challenges</option>
+          <option>Project</option>
+          <option>Community</option>
+          <option>Open Source</option>
+        </select>
+
+        <label>What would you like to see improved? (Check all that apply)</label>
+        <label><input type="checkbox" > Front-end Projects</label>
+        <label><input type="checkbox" > Back-end Projects</label>
+        <label><input type="checkbox" > Challenges</label>
+
+        <label>Any comments or suggestions?</label>
+        <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        <input id="submit" type="submit"/>
+
+    </form>
+</section>
+
+
+
+
+
+
     <script  src="js/index.js"></script>
   </body>
 </html>
